@@ -2361,7 +2361,15 @@ input, select, textarea {
 		}
 
 /* Image */
-
+	
+	.profile-image{
+		max-width: 10em;
+		border-radius: 100%;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+	
 	.image {
 		border-radius: 8px;
 		border: 0;
@@ -2799,19 +2807,25 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-direction: column;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
 	}
+		.features-img {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
 
 		.features li {
 			width: calc(33.33333% - 2em);
@@ -3785,11 +3799,34 @@ input, select, textarea {
 		}
 
 		.page-img{
-			width: 400px;
-			height: 350px;
+			margin-top: 25px;
+		
+			transition: 0.3s;
+
+			max-width: 25em;
+			
+			border-radius: 10px;
+
+			box-shadow: 0px 0px 20px rgb(106, 106, 106);
+		}
+		
+		.page-img:hover{
+			max-width: 25.5em;
+			transition: 0.3s;
+		}		
+		
+		@media screen and (max-width: 480px) {
+
+			.page-img {
+				max-width: 20em;
+			}
+
 		}
 
-		.page-img1{
-			width: 450px;
-			height: 375px;
+		@media screen and (min-width: 1680px) {
+
+			.page-img {
+				max-width: 45em;
+			}
+
 		}
