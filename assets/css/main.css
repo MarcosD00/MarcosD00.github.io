@@ -2365,9 +2365,12 @@ input, select, textarea {
 	.profile-image{
 		max-width: 10em;
 		border-radius: 100%;
-		border: 0;
 		display: inline-block;
 		position: relative;
+
+		padding: 5px;
+
+		border: 2px dotted white;
 	}
 	
 	.image {
@@ -3813,20 +3816,82 @@ input, select, textarea {
 		.page-img:hover{
 			max-width: 25.5em;
 			transition: 0.3s;
-		}		
+		}	
 		
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 2560px) {
 
 			.page-img {
-				max-width: 20em;
+				max-width: 60em;
+			}
+
+			.page-img:hover {
+				max-width: 60.5em;
+			}
+		}
+
+		@media screen and (max-width: 1440px) {
+
+			.page-img {
+				max-width: 55em;
+			}
+
+			.page-img:hover {
+				max-width: 55.5em;
+			}
+			
+		}@media screen and (max-width: 1280px) {
+
+			.page-img {
+				max-width: 45em;
+			}
+
+			.page-img:hover {
+				max-width: 45.5em;
 			}
 
 		}
 
-		@media screen and (min-width: 1680px) {
+		@media screen and (max-width: 1024px) {
 
 			.page-img {
-				max-width: 45em;
+				max-width: 48em;
+			}
+
+			.page-img:hover {
+				max-width: 48.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 768px) {
+
+			.page-img {
+				max-width: 40em;
+			}
+
+			.page-img:hover {
+				max-width: 40.5em;
+			}
+
+
+		}
+
+		@media screen and (max-width: 750px) {
+
+			.page-img {
+				max-width: 35em;
+			}
+			.page-img:hover {
+				max-width: 35.5em;
+			}
+
+
+		}
+
+		@media screen and (max-width: 425px) {
+
+			.page-img {
+				max-width: 20em;
 			}
 
 		}
