@@ -2837,6 +2837,10 @@ input, select, textarea {
 			padding: 0;
 		}
 
+		.project-list {
+			text-align: left;
+		}
+
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
 			}
