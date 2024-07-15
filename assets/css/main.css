@@ -3831,7 +3831,7 @@ input, select, textarea {
 		}
 
 		.page-img {
-			text-decoration: none;
+			border: none;
 		}
 		
 		@media screen and (max-width: 2560px) {
