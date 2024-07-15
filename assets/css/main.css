@@ -2851,13 +2851,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			.features li {
-				/* width: calc(50% - 2em); */
-			}
-
-				.features li:nth-child(3) {
+			.features li:nth-child(3) {
 					margin-top: 3em;
-				}
+			}
 
 		}
 
@@ -3851,21 +3847,17 @@ input, select, textarea {
 		@media screen and (max-width: 1440px) {
 
 			.page-img {
-				max-width: 55em;
-			}
-
-			.page-img:hover {
-				max-width: 55.5em;
-			}
-			
-		}@media screen and (max-width: 1280px) {
-
-			.page-img {
 				max-width: 45em;
 			}
 
 			.page-img:hover {
 				max-width: 45.5em;
+			}
+			
+		}@media screen and (max-width: 1280px) {
+
+			.page-img {
+				max-width: 33em;
 			}
 
 		}
@@ -3873,44 +3865,28 @@ input, select, textarea {
 		@media screen and (max-width: 1024px) {
 
 			.page-img {
-				max-width: 48em;
+				max-width: 28em;
 			}
-
-			.page-img:hover {
-				max-width: 48.5em;
-			}
-
 		}
 
 		@media screen and (max-width: 768px) {
 
 			.page-img {
-				max-width: 40em;
+				max-width: 25em;
 			}
-
-			.page-img:hover {
-				max-width: 40.5em;
-			}
-
-
 		}
 
 		@media screen and (max-width: 750px) {
 
 			.page-img {
-				max-width: 35em;
+				max-width: 22em;
 			}
-			.page-img:hover {
-				max-width: 35.5em;
-			}
-
-
 		}
 
 		@media screen and (max-width: 425px) {
 
 			.page-img {
-				max-width: 20em;
+				max-width: 19em;
 			}
 
 		}
