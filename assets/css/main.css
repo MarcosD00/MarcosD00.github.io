@@ -3829,6 +3829,10 @@ input, select, textarea {
 
 			border-bottom: 2px solid #935d8c;
 		}
+
+		.page-img {
+			text-decoration: none;
+		}
 		
 		@media screen and (max-width: 2560px) {
 
