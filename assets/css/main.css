@@ -3870,9 +3870,25 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 768px) {
+			.skillslist{
+				display: flex;
+				justify-content: center;
+				gap: 4em;
+			}
+
+			.statistics{
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+			}
 
 			.page-img {
 				max-width: 25em;
+			}
+
+			.statistics li{
+				padding: 2em;
+				border-radius: 8px;
 			}
 		}
 
@@ -3881,9 +3897,43 @@ input, select, textarea {
 			.page-img {
 				max-width: 22em;
 			}
+
+			.skillslist{
+				display: flex;
+				justify-content: center;
+				gap: 4em;
+			}
+
+			.statistics{
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+			}
+
+			.statistics li{
+				padding: 2em;
+				border-radius: 8px;
+			}
 		}
 
 		@media screen and (max-width: 425px) {
+			
+			.skillslist{
+				display: flex;
+				justify-content: center;
+				gap: 4em;
+			}
+
+			.statistics{
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+			}
+
+			.statistics li{
+				padding: 2em;
+				border-radius: 8px;
+			}
 
 			.page-img {
 				max-width: 19em;
