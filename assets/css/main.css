@@ -3873,13 +3873,13 @@ input, select, textarea {
 			.skillslist{
 				display: flex;
 				justify-content: center;
-				gap: 4em;
+				gap: 1em;
 			}
 
 			.statistics{
 				display: flex;
 				flex-direction: column;
-				gap: 10px;
+				gap: 5px;
 			}
 
 			.page-img {
@@ -3887,7 +3887,7 @@ input, select, textarea {
 			}
 
 			.statistics li{
-				padding: 2em;
+				padding: 0.5em;
 				border-radius: 8px;
 			}
 		}
@@ -3901,7 +3901,7 @@ input, select, textarea {
 			.skillslist{
 				display: flex;
 				justify-content: center;
-				gap: 4em;
+				gap: 1em;
 			}
 
 			.statistics{
@@ -3911,7 +3911,7 @@ input, select, textarea {
 			}
 
 			.statistics li{
-				padding: 2em;
+				padding: 0.5em;
 				border-radius: 8px;
 			}
 		}
@@ -3921,7 +3921,7 @@ input, select, textarea {
 			.skillslist{
 				display: flex;
 				justify-content: center;
-				gap: 4em;
+				gap: 1em;
 			}
 
 			.statistics{
@@ -3931,7 +3931,7 @@ input, select, textarea {
 			}
 
 			.statistics li{
-				padding: 2em;
+				padding: 0.5em;
 				border-radius: 8px;
 			}
 
